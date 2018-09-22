@@ -1,0 +1,87 @@
+/*---------- Extra small devices (Phone <= 576px) - auto ----------*/
+  .video_wrapper {
+    background-color: #222225;
+  }
+
+.video {
+  width: 290px;
+  height: 200px;
+}
+
+.column {
+  padding: 0 5px;
+}
+  .column img {
+    padding: 5px 0;
+    width: 100%;
+  }
+/*----------- End extra small devices (Phones < 576px) ------------*/
+
+
+
+
+
+
+
+
+
+
+/* Small devices (Phone/Tablet >= 576px) - "min-width: 576px" (sm) */
+@media screen and (min-width: 576px) {
+  .video {
+    width: 420px;
+    height: 280px;
+  }
+
+}
+/*----------------- End media "min-width: 576px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Medium devices (Tablet >= 768px) - "min-width: 768px" (md) --*/
+@media screen and (min-width: 768px) {
+  .video {
+    width: 560px;
+    height: 350px;
+  }
+}
+/*----------------- End media "min-width: 768px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Large devices (Desktop >= 992px) - "min-width: 970px" (lg) --*/
+@media screen and (min-width: 992px) {
+
+
+}
+/*----------------- End media "min-width: 992px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*- Extra large devices (TV >= 1200px) - "min-width: 1170px" (xl) -*/
+@media screen and (min-width: 1170px) {
+
+
+}
+/*----------------- End media "min-width: 1200px" -----------------*/

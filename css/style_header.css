@@ -1,0 +1,184 @@
+/*---------- Extra small devices (Phone <= 576px) - auto ----------*/
+header {
+  background: #FFFFFF;
+  background-image: url("../img/header-bg.jpg");
+  background-size: cover;
+}
+
+
+  /* NAVIGATION STYLE */
+  nav {
+    margin: 0 5%;
+    font-size: 1.07em;
+    font-weight: 400;
+  }
+
+    nav .dropdown-menu {
+      background-color: transparent;
+    }
+
+      nav .dropdown-menu a:hover {
+        background-color: transparent;
+      }
+
+    #collapse_target a {
+      color: #dcdcde;
+    }
+
+    h1 {
+      color: white;
+      font-size: 0.9em;
+    }
+
+    .gamburger { /* Navigation for mobile & tablets*/
+      border: 0;
+    }
+  /* NAVIGATION STYLE END */
+
+
+  /*
+   * Introduition style
+   */
+  .get_started {
+    padding: 15% 0;
+  }
+
+    .get_started  h2 {
+      color: #ffffff;
+      font-weight: 900;
+      letter-spacing: -2px;
+      font-size: 2.2em;
+    }
+
+    .get_started p {
+      color: #e2e2e2;
+    }
+
+    .get_started > p {
+      font-size: 0.90em;
+      margin: 0 11px;
+    }
+
+
+  /* GET STARTED BUTTON */
+  .get_started_btn p {
+    margin: 0;
+  }
+
+  .get_started_btn a {
+    background-color: #00AEDA;
+    border: solid 2px none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 190px;
+    font-size: 1em;
+    margin: 4px 2px;
+  }
+
+  .get_started_btn a:hover {
+    background: #222225;
+    transition: 0.3s;
+  }
+  .get_started_btn a:hover > p {
+    transition: 0.3s;
+    color: #00AEDA;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+/* GET STARTED BUTTON END */
+/*----------- End extra small devices (Phones < 576px) ------------*/
+
+
+
+
+
+
+
+
+
+
+/* Small devices (Phone/Tablet >= 576px) - "min-width: 576px" (sm) */
+@media screen and (min-width: 576px) {
+  /* NAVIGATION STYLE */
+  header h2 {
+    font-size: 3.2em;
+  }
+
+    nav li {
+      margin: 0 7px;
+    }
+  /* NAVIGATION STYLE END */
+}
+/*----------------- End media "min-width: 576px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Medium devices (Tablet >= 768px) - "min-width: 768px" (md) --*/
+@media screen and (min-width: 768px) {
+  /* NAVIGATION STYLE */
+  nav .dropdown-menu {
+    background-color: #3d3d3d;
+  }
+
+    nav .dropdown-menu a:hover {
+      background-color: #807d7d;
+    }
+  /* NAVIGATION STYLE END */
+
+
+  /*
+   * Introduition style
+   */
+  .get_started  h2 {
+    font-size: 3.5em;
+  }
+}
+/*----------------- End media "min-width: 768px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Large devices (Desktop >= 992px) - "min-width: 970px" (lg) --*/
+@media screen and (min-width: 970px) {
+
+}
+/*----------------- End media "min-width: 992px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*- Extra large devices (TV >= 1200px) - "min-width: 1170px" (xl) -*/
+@media screen and (min-width: 1170px) {
+  /* NAVIGATION STYLE */
+  nav {
+    margin: 0 20%;
+  }
+  /* NAVIGATION STYLE END */
+}
+/*----------------- End media "min-width: 1200px" -----------------*/

@@ -1,0 +1,127 @@
+/*---------- Extra small devices (Phone <= 576px) - auto ----------*/
+/*-------------------------------*/
+/*---------  Price List  --------*/
+  .pricelist_wrapper {
+    background-color: #222225;
+    text-align: center;
+    padding: 100px 3%;
+  }
+
+    .pricelist_wrapper h2 {
+      font-size: 1.7em;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+    }
+
+    .pricelist_table {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+      .pricelist_table th,tr, td {
+        border: solid 1px grey;
+      }
+
+      .pricelist_table tr:first-child {
+         background-color: rgba(149, 149, 149, 0.49);
+      }
+
+      .pricelist_table tr:nth-child(2n) {
+         background-color: rgba(102, 102, 102, 0.21);
+      }
+/*-------------------------------*/
+/*------------  Policy  ---------*/
+  .policy_wrapper {
+    padding: 80px 6%;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+
+    .policy_wrapper h2 {
+      color: #244873;
+      font-weight: 400;
+      font-size: 2em;
+    }
+
+    .policy h5 {
+      color: #5f5f5f;
+      border-bottom: solid 1px #d78c35;
+    }
+/*----------- End extra small devices (Phones < 576px) ------------*/
+
+
+
+
+
+
+
+
+
+
+/* Small devices (Phone/Tablet >= 576px) - "min-width: 576px" (sm) */
+@media screen and (min-width: 576px) {
+/*-------------------------------*/
+/*---------  Price List  --------*/
+  .pricelist_table {
+      width: 90%;
+      font-size: 1em;
+  }
+}
+/*----------------- End media "min-width: 576px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Medium devices (Tablet >= 768px) - "min-width: 768px" (md) --*/
+@media screen and (min-width: 768px) {
+/*-------------------------------*/
+/*---------  Price List  --------*/
+  .pricelist_wrapper {
+    padding: 130px 0;
+  }
+
+  .pricelist_table {
+      width: 60%;
+  }
+/*-------------------------------*/
+/*------------  Policy  ---------*/
+    .policy_wrapper {
+      padding: 120px 20%;
+    }
+}
+/*----------------- End media "min-width: 768px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Large devices (Desktop >= 992px) - "min-width: 970px" (lg) --*/
+@media screen and (min-width: 992px) {
+
+}
+/*----------------- End media "min-width: 992px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*- Extra large devices (TV >= 1200px) - "min-width: 1170px" (xl) -*/
+@media screen and (min-width: 1170px) {
+
+}
+/*----------------- End media "min-width: 1200px" -----------------*/

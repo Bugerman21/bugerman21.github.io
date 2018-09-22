@@ -1,0 +1,496 @@
+/*---------- Extra small devices (Phone <= 576px) - auto ----------*/
+main {
+  text-align: center;
+}
+/*-------------------------------*/
+/*--------  Features IMG  -------*/
+  .features img {
+    width: 100%;
+    resize: both;
+  }
+/*-------------------------------*/
+/*----------  Part One  ---------*/
+  /*
+   * PART ONE - Introdution
+   */
+  .part_one_wrapper {
+    background-color: #222225;
+  }
+
+    .part_one_wrapper > h2 {
+      color:  #ffffff;
+    }
+
+    .part_one_wrapper  p {
+      font-size: 0.9em;
+    }
+/*-------------------------------*/
+/*----------  Part Two  ---------*/
+  /*
+   * PART TWO - Introdution
+   */
+  .part_two_wrapper {
+    background-color: #ffffff;
+  }
+
+    .part_two_wrapper > h2 {
+      color:  #333;
+    }
+
+    .part_two_wrapper > p {
+      margin: 0 70px;
+      font-size: 1em;
+    }
+
+    /*
+     * PART TWO - Articles
+     */
+    .part_two {
+      font-size: 1.1em;
+      padding: 0 20px;
+    }
+
+      .part_two i {
+        font-size: 2.7em;
+        color: #00aeda;
+        font-weight: bold;
+      }
+/*-------------------------------*/
+/*---------  Part Three  --------*/
+  /*
+   * PART THREE - Introdution
+   */
+  .part_three_wrapper {
+    background-color: #f0f0f0;
+  }
+
+    .part_three_wrapper > p {
+      font-size: 0.9em;
+    }
+/*-------------------------------*/
+/*---------  Part Five  ---------*/
+  /*
+   * PART FIVE - Introdution
+   */
+  .part_five_wrapper {
+    background-color: #f0f0f0;
+  }
+/*-------------------------------*/
+/*---------  Part Six  ---------*/
+  .part_six_wrapper {
+    /* linear-gradient - Затемнение на фоновую картинку */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../img/image-bg.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+    .part_six {
+      padding: 130px 20px;;
+    }
+
+    .part_six h2 {
+      font-size: 1.9em;
+      font-weight: 500;
+    }
+
+    .part_six .get_started_btn a:hover {
+      background: none;
+      transition: 0.3s;
+      border: solid 1px #00aeda;
+      padding: 14px 32px;
+    }
+  /*-------------------------------*/
+  /*---------  Part Seven  ---------*/
+    /*
+     * PART SEVEN - Introdution
+     */
+    .part_seven_wrapper {
+        background-color: #00aeda;
+    }
+
+      .part_seven p {
+        font-size: 1.1em;
+        letter-spacing: 0.9px;
+      }
+
+      .part_seven h6 {
+        font-size: 0.8em;
+        letter-spacing: 1px;
+      }
+
+      /*
+       * PART FIVE - Carusel
+       */
+      .carusel_pic {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+      }
+/*-------------------------------*/
+/*----------  Part Eight  ---------*/
+  /*
+   * PART EIGHT - Introdution
+   */
+  .part_eight_wrapper {
+    background-color: #2e2e30;
+    padding: 120px 0;
+  }
+
+    .part_eight > h2 {
+      font-weight: 600;
+      font-size: 2.4em;
+    }
+
+    .part_eight > p {
+      margin: 0 5%;
+      letter-spacing: 1px;
+    }
+
+    .part_eight hr {
+      background-color: #3e3e3e;
+      width: 65%;
+    }
+
+    /*
+     * PART EIGHT - Packages
+     */
+    .packages_wrapper {
+      margin-top: 80px;
+    }
+
+      .packages {
+        background-color: #222225;
+        margin: 0 15px;
+        padding: 70px 0px;
+      }
+
+        .packages > h4 {
+          font-size: 1.1em;
+          font-weight: 600;
+        }
+
+        .packages > h2 {
+          font-size: 3em;
+          font-weight: 600;
+        }
+
+        .packages > p {
+          font-size: 0.9em;
+          line-height: 30px;
+        }
+
+      .get_plan_btn {
+        background-color: #00AEDA;
+        border: solid 2px none;
+        border-radius: 50px;
+        color: white;
+        padding: 10px 0px;
+        text-align: center;
+        text-decoration: none;
+        width: 110px;
+        font-size: 0.8em;
+        margin: 4px 2px
+      }
+
+      .get_plan_btn a {
+        color: white;
+      }
+
+      .get_plan_btn p {
+        margin-bottom: 0;
+        font-size: 1em;
+      }
+
+    .price_list {
+      text-decoration: underline;
+      margin: 0 30%;
+      font-size: 0.88em;
+    }
+
+    .price_list:hover{
+      color: silver;
+    }
+/*-------------------------------*/
+/*---------  Part Nine  ---------*/
+  /*
+   * PART NINE - Introdution
+   */
+  .part_nine_wrapper {
+    /* linear-gradient - Затемнение на фоновую картинку */
+    background: linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url(../img/cta_bg.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+    .part_nine {
+      padding: 80px 0;
+    }
+
+    .part_nine > h2 {
+      font-size: 2.3em;
+      margin: 0 2%;
+    }
+
+    .part_nine > p {
+      font-size: 0.9em;
+      margin: 0 17%;
+    }
+
+    /*
+     * PART NINE - Subscribe
+     */
+     .mail {
+       border: none;
+       border-radius: 5px 0 0 5px;
+       height: 30px;
+       padding: 0 25px;
+       font-size: 0.8em;
+     }
+
+     .submit-button {
+       font-size: 0.9em;
+       color: #ffffff;
+       height: 30px;
+       border: solid 2px #222225;
+       border-radius: 0 5px 5px 0;
+       background-color: #222225;
+       margin: 0;
+       padding: 0 10px;
+     }
+
+      .submit-button:hover {
+        background-color: #000000;
+      }
+/*----------- End extra small devices (Phones < 576px) ------------*/
+
+
+
+
+
+
+
+
+
+
+/* Small devices (Phone/Tablet >= 576px) - "min-width: 576px" (sm) */
+@media screen and (min-width: 576px) {
+/*-------------------------------*/
+/*--------  Features IMG  -------*/
+  .features img {
+    width: 100%;
+  }
+
+  .part_two img {
+    width: 80%;
+    resize: both;
+  }
+/*-------------------------------*/
+/*---------  Part Six  ---------*/
+    .part_six {
+      padding: 130px 50px;;
+    }
+/*-------------------------------*/
+/*---------  Part Eight  ---------*/
+  /*
+   * PART EIGHT - Introdution
+   */
+  .part_eight > p {
+    margin: 0 13%;
+    letter-spacing: 1px;
+  }
+
+  /*
+   * PART EIGHT - Packages
+   */
+  .packages {
+    background-color: #222225;
+    margin: 0 15px;
+    padding: 70px 80px;
+  }
+
+    .get_plan_btn {
+      background-color: #00AEDA;
+      border: solid 2px none;
+      border-radius: 50px;
+      color: white;
+      padding: 13px 32px;
+      text-align: center;
+      text-decoration: none;
+      width: 165px;
+      font-size: 1em;
+      margin: 4px 2px
+    }
+/*-------------------------------*/
+/*---------  Part Nine  ---------*/
+  /*
+   * PART NINE - Subscribe
+   */
+    .mail {
+      border: none;
+      border-radius: 5px 0 0 5px;
+      height: 40px;
+      padding: 0 130px 0 20px;
+      font-size: 0.9em;
+    }
+
+    .submit-button {
+      font-size: 0.9em;
+      color: #ffffff;
+      height: 40px;
+      border: solid 2px #222225;
+      border-radius: 0 5px 5px 0;
+      background-color: #222225;
+      margin: 0;
+      padding: 0 25px;
+    }
+
+    .submit-button:hover {
+      background-color: #000000;
+    }
+}
+/*----------------- End media "min-width: 576px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Medium devices (Tablet >= 768px) - "min-width: 768px" (md) --*/
+@media screen and (min-width: 768px) {
+/*-------------------------------*/
+/*--------  Features IMG  -------*/
+.features img {
+  width: 100%;
+}
+
+.part_two img {
+  width: 50%;
+  resize: both;
+}
+/*-------------------------------*/
+/*----------  Part One  ---------*/
+  /*
+   * PART ONE - Introdution
+   */
+  .part_one_wrapper > p {
+    margin: 0 150px;
+  }
+/*-------------------------------*/
+/*----------  Part Two  ---------*/
+  /*
+   * PART TWO - Introdution
+   */
+  .part_two_wrapper > p {
+    margin: 0 150px;
+  }
+/*-------------------------------*/
+/*---------  Part Nine  ---------*/
+  /*
+   * PART NINE - Introdution
+   */
+    .part_nine > p {
+      margin: 0 27%;
+    }
+}
+/*----------------- End media "min-width: 768px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Large devices (Desktop >= 992px) - "min-width: 970px" (lg) --*/
+@media screen and (min-width: 992px) {
+/*-------------------------------*/
+/*--------  Features IMG  -------*/
+  .features img {
+    width: 100%;
+  }
+/*-------------------------------*/
+/*----------  Part One  ---------*/
+  /*
+   * PART ONE - Introdution
+   */
+  .part_one_wrapper > p {
+    margin: 0 20px;
+  }
+
+    /*
+     * PART ONE- Articles
+     */
+    .part_one p {
+      margin: 0 20px;
+    }
+/*-------------------------------*/
+/*----------  Part Two  ---------*/
+  /*
+   * PART TWO- Introdution
+   */
+  .part_two_wrapper > div {
+    margin: 0 20px;
+  }
+/*-------------------------------*/
+/*---------  Part Eight  ---------*/
+  /*
+   * PART EIGHT - Introdution
+   */
+  .part_eight > p {
+    margin: 0 18%;
+    letter-spacing: 1px;
+  }
+  .part_eight hr {
+    background-color: #3e3e3e;
+    width: 65%;
+  }
+/*-------------------------------*/
+/*---------  Part Nine  ---------*/
+    /*
+     * PART NINE - Introdution
+     */
+      .part_nine > p {
+        margin: 0 35%;
+      }
+}
+/*----------------- End media "min-width: 992px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*- Extra large devices (TV >= 1200px) - "min-width: 1170px" (xl) -*/
+@media screen and (min-width: 1170px) {
+/*-------------------------------*/
+/*--------  Features IMG  -------*/
+  .features img {
+    width: 100%;
+    resize: both;
+  }
+/*-------------------------------*/
+/*----------  Part One  ---------*/
+  /*
+   * PART ONE - Articles
+   */
+  .part_one {
+    margin: 0 6%;
+  }
+/*-------------------------------*/
+/*----------  Part Two  ---------*/
+  /*
+   * PART TWO - Introdution
+   */
+  .part_two-wrapper > p {
+    margin: 0 35%;
+  }
+}
+/*----------------- End media "min-width: 1200px" -----------------*/
